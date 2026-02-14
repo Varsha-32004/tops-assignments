@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 35px;
+    text-decoration: none;
+    background-color: rgb(232, 232, 232);
+}
+div
+{
+    margin:0.4rem 10rem 0.4rem 10rem ;
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+    border-radius: 4rem;
+    background-color: white;
+}
+div:hover
+{
+    box-shadow: 0px 0px 90px black;
+}
+table
+{
+    background-color: white;
+}
+
+table tr td
+{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: white;
+}
+table tr td label
+{
+    background-color: white;
+}
+table tr td input
+{
+    font-size: 0.7rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    background-color: rgb(240, 245, 249);
+}
+table tr td input:hover
+{
+   transform: scale(1.1);
+   transition: 0.5s ease; 
+   border: none;
+   box-shadow: 2px 2px 2px black;
+}
+#heding td
+{
+    padding-bottom: 1rem;
+    padding-top: 0.1rem;
+    font-size: 1.4rem;
+}
+.mor
+{
+    border-radius: 1rem;
+    background-color: rgb(240, 245, 249);
+}
+.mor:hover
+{
+   transform: scale(1.1);
+   transition: 0.5s ease; 
+   border: none;
+   box-shadow: 2px 2px 2px black;
+}
+button
+{
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+    background-color: rgb(202, 226, 247);
+}
+button:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 50px rgb(7, 70, 171);
+    background-color: white;
+    color: rgb(81, 81, 199);
+    border: none;
+    text-shadow: 2px 2px 2px black;
+}

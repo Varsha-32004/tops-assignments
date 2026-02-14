@@ -1,0 +1,139 @@
+ <!-- Create a product catalog table that includes the following columns: 
+o Product Name 
+o Product Image (use placeholder image URLs) 
+o Price 
+o Description 
+o Availability (in stock, out of stock) 
+ 
+Additional Requirements: 
+ 
+o Use thead for the table header. 
+o Add a border and some basic styling using inline CSS. 
+o Use colspan or rowspan to merge cells where applicable. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+</head>
+<style>
+    *
+    {
+        background-color:rgb(216, 226, 228);
+    }
+    table
+    {
+        
+      box-shadow: 0px 0px 50px black;
+    }
+    img
+    {
+        height: 10rem;
+        width: 10rem;
+        
+    }
+    table tr th 
+    {
+        /* border: 2px solid black; */
+        font-size: 2rem;
+        padding: 0.5rem;
+        background-color: aliceblue;
+    }
+    table tr td 
+    {
+        
+        /* border: 2px solid black; */
+        padding: 1rem;
+        font-size: 1.5rem;
+        background-color: white;
+        
+    }
+   header h1
+   {
+        font-size: 3rem;
+        text-shadow:5px 2px 2px white ;
+
+   }
+   .foot
+   {
+        background-color: aliceblue;
+   }
+
+</style>
+<body>
+    <header>
+        <center>
+        <h1>Product Catalog</h1>
+        </center>
+    </header>
+
+    <section>
+        <center>
+            
+            
+        <table>
+            <tr>
+                    <th>Product Name</th>
+                    <th> Product Image</th>
+                    <th> Price </th>
+                    <th>Description </th>
+                    <th>Availability</th>
+            </tr>
+            <tr>
+                <td align="center">Sofa</td>
+                <td align="center"><img src="./proimg/RIK-GNWHP_2.jpg" alt=""></td>
+                <td align="center">₹220,000</td>
+                <td align="center">Rikoma - Three Seater Sofa with Metal Legs</td>
+                <td align="center">In Stock</td>
+            </tr>
+
+            <tr>
+              <td align="center">Chair</td>
+              <td align="center"><img src="./proimg/Chare_2.jpg" alt=""></td>
+              <td align="center">₹90,000</td>
+              <td align="center">Craff - lounge Chair Blue Printed Fabric</td>
+              <td align="center">in stock</td>
+            </tr>
+
+            <tr>
+                <td align="center">Cabinet Units</td>
+                <td align="center"><img src="./proimg/cabinet.jpg" alt=""></td>
+                <td align="center">₹90,000</td>
+                <td align="center">Coberts Teakwood Cabinet Unit</td>
+                <td align="center">in stock</td>
+            </tr>
+            <tr>
+                <td align="center">Study Table</td>
+                <td align="center"><img src="./proimg/Table.jpg" alt=""></td>
+                <td align="center">₹138,000</td>
+                <td align="center">Tripadi - Study Table</td>
+                <td align="center">out of stock</td>
+            </tr>
+            <tr>
+                <td align="center">BookSelf & Display Unit</td>
+                <td align="center"><img src="./proimg/bookself.jpg" alt=""></td>
+                <td align="center">₹453,000</td>
+                <td align="center">Udiv – Teakwood Partition Unit with Hand Painted Front</td>
+                <td align="center">in stock</td>
+            </tr>
+            <tr>
+                <td align="center">Bed</td>
+                <td align="center"><img src="./proimg/bed.jpg" alt=""></td>
+                <td align="center" align="center">₹319,000</td>
+                <td align="center">Kolo - Queen Size Bed</td>
+                <td align="center">In Stock</td>
+            </tr>
+            <tr>
+                <td colspan="5" align="center" class="foot">Your design ideas and our dream team can make magic happen</td>
+            </tr>
+
+        </table>
+
+        </center>
+  
+    </section>
+    
+</body>
+</html>

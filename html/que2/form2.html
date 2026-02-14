@@ -1,0 +1,72 @@
+ <!-- Create a contact form with the following fields: 
+o Full name (text input) 
+o Email (email input) 
+o Phone number (tel input) 
+o Subject (dropdown menu) 
+o Message (textarea) 
+o Submit button 
+
+Additional Requirements: 
+
+  o Use appropriate form validation using required, minlength, maxlength, and pattern. 
+  o Link form labels with their corresponding inputs using the for attribute. -->
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> contact form</title>
+    <link rel="stylesheet" href="formcss.css">
+  </head>
+  <body>
+    
+    <section>
+    <center>
+    <form action="">
+        <div>
+        <table>
+            <tr id="heding">
+                <td colspan="2" align="center"> Contact Form</td>
+            </tr>
+            
+            <tr>
+                <td>Full Name:</td>
+                <td><input type="text" placeholder="Enter Full Name" required minlength="3" maxlength="50"></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="email" placeholder="abc@.gmail" required minlength="10" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" placeholder="0000000000" required pattern="[0-9]{10}" ></td>
+            </tr>
+            <tr>
+                <td><label for="sub">Subjects :</label></td>
+                <td><select name="" id="" required class="mor" >
+                    <option value="" >Select course</option>
+                    <option value="">BCA</option>
+                    <option value="">BBA</option>
+                    <option value="">B.COM.</option>
+                    <option value="">MBA</option>
+                    <option value="">M.COM.</option>
+                    <option value="">LLB</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>message:</td>
+                <td><textarea rows="2" cols="19" required minlength="10" maxlength="500" class="mor"></textarea></td>
+            </tr>
+             <tr>
+                <td colspan="2" align="center"><button>Submit</button></td>
+            </tr>
+
+        </table>
+        </div>
+    </form>
+    </center>
+    </section>
+ 
+  </body>
+  </html>
