@@ -1,0 +1,110 @@
+ <!-- Task: Create a profile card layout using the box model. The profile card should 
+include: 
+o A profile picture. 
+o The user’s name and bio. 
+o A button to "Follow" the user. 
+ 
+Additional Requirements: 
+ 
+o Add padding and borders to the elements. 
+o Ensure the layout is clean and centered on the page using CSS margins. 
+o Use the box-sizing property to demonstrate both content-box and border-box 
+on different elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> profile card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+    *
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+   
+    }
+    body
+    {
+         background: linear-gradient(50deg, rgb(155, 62, 4), rgb(248, 248, 249), rgb(3, 77, 7));
+ 
+    }
+    div
+    {
+        box-shadow: 0px 0px 40px black;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 42rem;
+        margin-right: 42rem;
+        padding: 2rem;
+        border-radius: 3rem;
+        background-color: none;
+        background: linear-gradient(50deg, rgb(193, 154, 130), rgb(254, 251, 251), rgb(223, 255, 205));
+ 
+    }
+    img
+    {
+        height: 12rem;
+        border-radius: 3rem;
+        box-shadow: 0px 0px 30px black;
+    }
+    h1
+    {
+        font-size: 2.5rem;
+        margin: 0.5rem;
+    } 
+    h3{
+        margin: 0.5rem;
+    }
+    button
+    {
+        padding: 0.5rem 4rem 0.5rem 4rem;
+        margin: 1rem 2rem 1rem 2rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        font-size: 1.1rem;
+    }
+    button:hover
+    {
+        transform: scale(1.1);
+        transition: 0.5s ease;
+        border: none;
+        box-shadow: 0px 0px 30px black;
+    }
+    a i
+    {
+        font-size: 1.5rem;
+        color: black;
+        margin: 1.5rem;
+    }
+    a i:hover
+    {
+        transform: scale(1.5);
+        transition: 0.5s ease;
+        color: rgb(56, 56, 237);
+    }
+
+</style>
+<body>
+    <center>
+    <div>
+        <img src="./profileimg/pm.jpg" alt="">
+        <h1>narendramodi</h1>
+        <h3>Narendra Modi<br> 
+            Prime Minister of India 🇮🇳
+        </h3>
+           <a href="https://www.instagram.com/narendramodi/"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+           <a href="https://www.facebook.com/narendramodi/"><i class="fa-brands fa-facebook" target="_blank"></i></a>
+           <a href="https://x.com/narendramodi"><i class="fa-brands fa-x-twitter" target="_blank"></i></a>
+          <br>
+           <a href="https://www.instagram.com/narendramodi/" target="_blank"><button>View Profile</button></a> 
+    </div>
+    </center>
+    
+</body>
+</html>

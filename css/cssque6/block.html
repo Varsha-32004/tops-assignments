@@ -1,0 +1,190 @@
+<!-- Task: Create a blog post layout with the following: 
+o A title, subtitle, and body content. 
+o Use at least two different fonts (one for headings, one for body content). 
+o Style the text to be responsive and easy to read. 
+ 
+Additional Requirements: 
+ 
+o Use a custom font from Google Fonts. 
+o Adjust line-height, font-size, and spacing for improved readability. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Tagesschrift&family=Wallpoet&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&family=Share+Tech&family=Staatliches&family=Tagesschrift&family=Unbounded:wght@200..900&family=Wallpoet&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&family=Share+Tech&family=Staatliches&family=Tagesschrift&family=Unbounded:wght@200..900&family=Wallpoet&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Bubbles&family=Share+Tech&family=Staatliches&family=Tagesschrift&family=Unbounded:wght@200..900&family=Wallpoet&display=swap');
+    *
+    {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }
+    div
+    {
+        background-color: rgb(179, 168, 190);
+        padding: 2rem 2rem 2rem 2rem;
+    }
+    #blog
+    {
+        border: none;
+        border-radius: 50px;
+        margin: 1rem 40rem 1rem 40rem;
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: rgb(232, 232, 248);
+        box-shadow: 1px 1px 40px black;
+    }
+    h1
+    {
+        font-size: 7rem;
+        font-family: "Staatliches", sans-serif;
+       
+    }
+    h3
+    {
+       font-size: 4rem;
+       font-family: "Wallpoet", sans-serif;
+       
+    }
+    p
+    {
+        font-size: 2rem;
+    }
+    img
+    {
+        border-radius: 50px;
+        height: 40rem;
+        width: 40rem;
+        box-shadow: 0px 0px 30px rgb(40, 2, 79);
+    }
+    h6
+    {
+        
+        font-size: 3rem;
+        font-family: "Bebas Neue", sans-serif;
+    }
+    ul li
+    {
+        font-size:2rem ;
+    }
+    p
+    {
+        font-family: "Tagesschrift", system-ui;
+    }
+
+
+    @media (max-width : 750px)
+{
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ div
+    {
+        background-color: rgb(179, 168, 190);
+        padding: 1rem 1rem 1rem 1rem;
+    }
+    #blog
+    {
+        border: none;
+        border-radius: 50px;
+        margin: 1rem 1rem 1rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
+        background-color: rgb(232, 232, 248);
+        box-shadow: 1px 1px 40px black;
+    }
+    h1
+    {
+        font-size: 2rem;
+        font-family: "Staatliches", sans-serif;
+       
+    }
+    h3
+    {
+       font-size: 1rem;
+       font-family: "Wallpoet", sans-serif;
+       
+    }
+    p
+    {
+        font-size: 1rem;
+    }
+    img
+    {
+        border-radius: 5px;
+        height: 8rem;
+        width: 8rem;
+        box-shadow: 0px 0px 30px rgb(40, 2, 79);
+    }
+    h6
+    {
+        
+        font-size: 1rem;
+        font-family: "Bebas Neue", sans-serif;
+    }
+    ul li
+    {
+        font-size:1rem ;
+    }
+    p
+    {
+        font-family: "Tagesschrift", system-ui;
+    }
+
+
+
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <div id="blog">
+
+            <center>
+
+            <h1>Sustainability & Environment</h1><br><br>
+            <h3>From Trash to Tech: How Startups Are Turning <br> Waste into Smart Devices</h3>
+            <br>
+            <br>
+            <img src="./sustainability-14-10226-g001.jpg" alt="">
+            <br>
+            <br>
+            <br>
+            <p>Every year, the world generates over 50 million tons of electronic waste—most <br> of it ending up in landfills. But a new wave of startups is transforming this trash into cutting-edge tech.</p>
+            <br>
+            <p>These companies are rethinking how devices are made by using recycled plastics,<br> metals, and components to build smart gadgets like sensors, wearables, and even modular smartphones. It’s all part<br> of a growing movement toward the circular economy, where waste is reused, not discarded.</p>
+            <br>
+            <h6>Examples include:</h6>
+            <br>
+            
+            
+               <p>Circular Devices with its modular PuzzlePhone.</p>
+               <p>Precious Plastic, enabling communities to create tools and devices from plastic waste.</p>
+               <p> using recycled sensors for solar energy monitoring.</p>
+            
+            
+            <br>
+            <h6>The benefits go beyond sustainability:</h6>
+            <br>
+            
+            
+                <p>Cheaper, accessible tech for underserved regions.</p>
+                <p>Reduced carbon footprint.</p>
+                <p>New green jobs in recycling and innovation.</p>
+    
+            
+            </center>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

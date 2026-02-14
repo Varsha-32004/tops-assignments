@@ -1,0 +1,70 @@
+*
+{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 35px;
+    text-decoration: none;
+    background-color: rgb(219, 221, 241);
+}
+div
+{
+    border:2px solid black;
+    margin: 2rem 13rem 4rem 13rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+div:hover
+{
+    
+  box-shadow:0px 0px 50px black;
+  border: 2px solid white;
+   
+}
+table
+{
+   
+    background-color: white;
+    margin: 0.5rem;
+    border-radius: 2rem;
+    /* border: 2px solid black; */
+   
+}
+#heder
+{
+    font-size: 2rem;
+}
+table tr td
+{
+    padding: 0.4rem;
+    background-color: white;
+}
+table tr td input
+{
+    background-color: white;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+table tr td input:hover
+{
+    
+   box-shadow:0px 0px 40px rgb(51, 1, 66) ;
+}
+table tr td button
+{
+    background-color:white;
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 0px 50px rgb(11, 1, 18);
+}
+table tr td button:hover
+{
+   transform: scale(1.1);
+   transition: 0.5s ease;
+   box-shadow: 0px 0px 40px rgb(51, 1, 66);
+   color: rgb(51, 1, 66);
+   text-shadow:2px 2px 2px black;
+}

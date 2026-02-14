@@ -1,0 +1,239 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 45px;
+    text-decoration: none;
+    background-color: rgb(7, 7, 7);
+}
+header
+{
+    border: 2px solid rgb(242, 235, 235);
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+header p
+{
+    font-size: 500%;
+    color: white;
+    text-shadow: 10px 10px 2px rgb(118, 8, 220);
+   
+}
+main
+{
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin-left: 20rem;
+}
+main p
+{
+    font-size: 3rem;
+    color: white;
+    margin: 1rem;
+}
+main #one
+{
+    margin: 2.5rem 3rem;
+    font-size: 2rem;
+    color: white;
+}
+main  ul 
+{
+    margin-left: 7rem;
+    
+}
+main ul li
+{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0.5rem;
+}
+
+main .hed
+{
+    font-size: 2rem;
+    color: white;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+main .new
+{
+    
+    margin: 0.5rem;
+}
+main .new li
+{
+    font-size: 1rem;
+    color: white;
+}
+main ol
+{
+    margin: 0.9rem;
+    margin-left: 8rem;
+}
+main ol li
+{
+    font-size: 1.5rem;
+    color: white;
+}
+main #cour
+{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+   
+}
+main #cour div
+{
+    border: 2px solid white;
+    margin: 4rem;
+    border-radius: 2rem;
+}
+main #cour div:hover
+{
+    
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    border: none;
+    box-shadow: 0px 0px 90px rgb(118, 8, 220);
+}
+
+main a button
+{
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 90px rgb(118, 8, 220) ;
+}
+main a button:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    color: rgb(118, 8, 220);
+    box-shadow: 0px 0px 90px  rgb(118, 8, 220);
+    text-shadow: 2px 2px 2px white;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+aside
+{
+   
+    padding: 0.1rem 0.1rem 0.0rem 0.1rem;
+    margin: 0.5rem;
+    margin-bottom: 50rem;
+    margin-right: 93rem;
+    position: absolute;
+    top: 8.3rem;
+}
+aside img
+{
+    width: 18.5rem;
+    height: 69.4rem;
+}
+footer
+{
+    
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+ #foot
+{
+    margin: 4rem 4rem 4rem 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+}
+footer div h3
+{
+    font-size: 2.5rem;
+    color: white;
+    margin: 1rem 1rem 1rem 1rem;
+}
+footer div a
+{
+    font-size: 1.5rem;
+    color: white;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+#foot  div:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 90px rgb(118, 8, 220);
+    border-radius: 3rem;
+}
+#foot div a:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    color: rgb(118, 8, 220);
+}
+
+#form
+{
+    /* border: 2px solid rgb(254, 254, 254); */
+    box-shadow: 0px 0px 90px rgb(118, 8, 220);
+    border-radius: 3rem;
+    margin: 7rem 11rem 12.9rem 11rem;
+}
+#form:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 90px rgb(245, 244, 246);
+     
+}
+
+#form table
+{
+    margin: 1rem 1rem 1rem 1rem;
+}
+#form table tr td
+{
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 2.5rem;
+     color: white;
+}
+#form table tr td button
+{
+    font-size: 3rem;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    margin: 3rem;
+    box-shadow: 0px 0px 90px rgb(118, 8, 220); 
+}
+#form table tr td button:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 90px  rgb(250, 249, 252); 
+    font-size: 3rem;
+    background-color: rgb(50, 48, 48);
+    
+}
+table tr td input
+{
+    font-size: 1.9rem;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 3rem;
+}
+table tr td input:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    box-shadow: 0px 0px 90px rgb(118, 8, 220); 
+   
+}
+main h6
+{
+    margin-top: 5rem;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 20px 2px 20px rgb(118, 8, 220);
+}

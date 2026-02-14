@@ -1,0 +1,209 @@
+ <!-- Task: Create a 3x3 grid of product cards using CSS Grid. Each card should contain: 
+o A product image. 
+o A product title. 
+o A price. 
+ 
+Additional Requirements: 
+ 
+o Use grid-template-columns to create the grid layout.  
+o Use grid-gap to add spacing between the grid items. 
+o Apply hover effects to each card for better interactivity. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyphen</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+    #one {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        border: 2px solid black;
+        width: 100%;
+       
+       
+        background: linear-gradient(50deg, rgb(233, 237, 232), rgb(228, 243, 226), rgb(190, 198, 188));
+       
+    }
+
+    img 
+    {
+        
+        /* margin-left: 12%;
+        margin-bottom: 5%; */
+        height: 850px;
+        width: 650px;
+        box-shadow: 8px 6px 10px black;
+    }
+    img:hover
+    {
+         transform: scale(1.1);
+        transition: 0.5s ease;
+        box-shadow: 0px 0px 90px black;
+    }
+
+    #two 
+    {
+        padding: 100px;
+        box-shadow: 0px 0px 10px black;
+        border-radius: 2rem;
+        background: linear-gradient(50deg, rgb(245, 240, 210), rgb(199, 213, 159), rgb(193, 229, 244));
+        
+         margin: 10%;
+         
+    }
+    #two:hover
+    {
+        transform: scale(1.1);
+        transition: 0.5s ease;
+        box-shadow: 0px 0px 90px black;
+    }
+
+    h2 
+    {
+        font-size: 7rem;
+        font-family: "Roboto Condensed", sans-serif;
+        text-align: center;
+        color: white;
+    }
+    h3
+    {
+        font-size: 5rem;
+        color: white;
+
+    }
+     button
+    {
+       
+        padding: 1.5rem;
+        border-radius: 2rem;
+        font-size: 6rem;
+        
+        box-shadow: 2px 2px 10px black;
+    }
+    button:hover
+    {
+         transform: scale(1.1);
+        transition: 0.5s ease;
+        box-shadow: 9px 7px 10px black;
+    }
+
+   
+
+   
+</style>
+
+<body>
+   
+    
+    <div id="one">
+        <div id="two">
+            <center>
+            <img src="./gridepro/sunscrin1.jpg" alt="" >
+            <h2>ULTRA LIGHT WATER SUNSCREEN</h2>
+            <h3>MRP Rs. 549</h3>
+            <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+                <button>ADD TO CART</button>
+            </a>
+            </center>
+        </div>
+
+        <div id="two">
+            <center>
+             <img src="./gridepro/whiten2.jpg" alt="">
+            <h2>LIP BALM <br>  PLUMISh BROWN TINT</h2>
+            <h3>MRP Rs. 399</h3>
+             <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+                <button>ADD TO CART</button>
+             </a>
+            </center>
+        </div>
+
+        <div id="two">
+            <center>
+            <img src="./gridepro/facemask3.jpg" alt="">
+            <h2>ICE DUNK COOLING <br> FACE MASK</h2>
+            <h3>MRP Rs. 599</h3>
+            <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+                <button>ADD TO CART</button>
+            </a>
+            </center>
+        </div>
+
+        <div id="two">
+            <center>
+            <img src="./gridepro/mousturizer.jpg" alt="">
+            <h2> MOISTURIZER <br> (DRY SKIN)</h2>
+            <h3>MRP Rs. 449</h3> 
+           <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+             <button>ADD TO CART</button>
+           </a>
+            </center>  
+        </div>
+
+        <div id="two">
+            <center>
+            <img src="./gridepro/pro5.jpg" alt="">
+            <h2>VITAMIN INFUSED PEPTIDE DEWY PREP</h2>
+            <h3>MRP Rs. 599</h3>
+            <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+              <button>ADD TO CART</button>
+            </a>
+            </center>
+        </div>
+
+        <div id="two">
+            <center>
+             <img src="./gridepro/pro6.jpg" alt="">
+            <h2>0.05% RETINAL RESET <br> SERUM</h2>
+            <h3>MRP Rs. 599</h3>
+           <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+             <button>ADD TO CART</button>
+           </a>  
+            </center>
+        </div>
+
+        <div id="two">
+            <center>
+             <img src="./gridepro/pro7.jpg" alt="">
+            <h2>GOLDEN HOUR GLOW <br> SCREEN SPF 50  </h2>
+            <h3>MRP Rs. 549</h3>
+            <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+             <button>ADD TO CART</button>
+            </a>
+            </center>
+        </div>
+
+        <div id="two">
+            <center>
+             <img src="./gridepro/pro8.jpg" alt="">
+            <h2>MANGO LIP SCREEN <br> SPF 50 PA++++  </h2>
+            <h3>MRP Rs. 399</h3>
+            <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+              <button>ADD TO CART</button>
+            </a>
+            </center>
+        </div>
+
+        <div id="two">
+            <center>
+             <img src="./gridepro/pro9.jpg" alt="">
+            <h2>MILKY TONER ESSENCE <br> WITH GLASS SKIN</h2>
+            <h3>MRP Rs. 495</h3>
+            <a href="https://letshyphen.com/collections/offer?utm_source=google&utm_medium=cpc&utm_campaign=VM_Search_Brand_27July%2723&gad_source=1&gad_campaignid=20396787786&gbraid=0AAAAAp_dPLlrIexcwrBMx2SSQhYRTye4Q&gclid=CjwKCAjw9anCBhAWEiwAqBJ-c3wJlR8Mi40P_tBmbzc-ISKyoCzbVOW4RoJrZGdmWqAkScqU-SbDkBoC0yYQAvD_BwE&cartOpen=true" target="_blank">
+             <button>ADD TO CART</button>
+            </a>
+            </center>
+        </div>
+        
+
+    </div>
+</section>
+</body>
+
+</html>
